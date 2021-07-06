@@ -1,0 +1,162 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 16,
+        "name": "verify home page",
+        "description": "",
+        "id": "filter--functionality;verify-home-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22726514300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am in home page and enter  username \"Admin\" and password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 39
+                },
+                {
+                  "val": "admin123",
+                  "offset": 60
+                }
+              ],
+              "location": "AdminPageTest.i_am_in_home_page_and_enter_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1950808300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I  click on Admin tab",
+            "match": {
+              "location": "AdminPageTest.i_click_on_Admin_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84055100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter username for testadmin \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 32
+                }
+              ],
+              "location": "AdminPageTest.i_enter_username_Admin(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 158538100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select user role \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 20
+                }
+              ],
+              "location": "AdminPageTest.i_select_user_role(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83150000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter EmployeeName \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 22
+                }
+              ],
+              "location": "AdminPageTest.i_enter_EmployeeName(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 130698700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select Status \"Enabled\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enabled",
+                  "offset": 17
+                }
+              ],
+              "location": "AdminPageTest.i_select_Status(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1345870500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on search button",
+            "match": {
+              "location": "AdminPageTest.i_click_on_search_button()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Admin"
+          }
+        ]
+      }
+    ],
+    "name": "Filter  functionality",
+    "description": "I want to use this template for my feature file",
+    "id": "filter--functionality",
+    "keyword": "Feature",
+    "uri": "Admin.feature"
+  }
+]
